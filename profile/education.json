@@ -1,0 +1,23 @@
+{
+    "education":[
+        {
+            "title": "Feb 2015 - Feb 2019",
+            "cardTitle": "Bachelor of Science in Computer Science",
+            "cardSubtitle":"Hamdard University, Pakistan",
+            "cardDetailedText": "CGPA - 3.09"
+            
+        },
+        {
+            "title": "2014",
+            "cardTitle": "Intermediate",
+            "cardSubtitle":"Fazaia Inter College, Malir",
+            "cardDetailedText": "Major: Pre-Engineering"
+        },
+        {
+            "title": "2012",
+            "cardTitle": "Matriculation",
+            "cardSubtitle":"Fazaia Inter College, Malir",
+            "cardDetailedText": "Major: Science Group"
+        }
+    ]
+}
