@@ -14,6 +14,20 @@
                     "href": "https://portfolio-anasrasheed03.vercel.app/"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/DevPortfolio/experience.PNG"
+                },
+                {
+                    "image" : "images/projects/DevPortfolio/projects.PNG"
+                },
+                {
+                    "image" : "images/projects/DevPortfolio/skills.PNG"
+                },
+                {
+                    "image" : "images/projects/DevPortfolio/skills-light-mode.PNG"
+                }
+            ],
             "tags" : [
                 "React",
                 "Portfolio",
@@ -28,6 +42,23 @@
                 {
                     "text": "Live",
                     "href": "https://eservices.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Eservices/App-Form.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/Dashboard.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/profile-edit.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/profile-unedit.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/Tracking.png"
                 }
             ],
             "tags" : [
@@ -47,6 +78,23 @@
                     "href": "http://www.icvglobal.com/"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/ICVGlobal/Insights.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Careers.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Footfer.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Discover.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Contact-us.PNG"
+                }
+            ],
             "tags" : [
                 "React",
                 "JavaScript",
@@ -62,6 +110,17 @@
                 {
                     "text": "Live",
                     "href": "https://etc.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/ETC/dashboard.png"
+                },
+                {
+                    "image" : "images/projects/ETC/job.png"
+                },
+                {
+                    "image" : "images/projects/ETC/Tabs.png"
                 }
             ],
             "tags" : [
@@ -90,7 +149,7 @@
         },
         {
             "image" : "images/projects/pak-afghan-poster.PNG",
-            "title": "Allama Muhammad Iqbal Scholarships for Afghan National Students (Pak Afghan)",
+            "title": "Allama Muhammad Iqbal Scholarships for Afghan Nationals",
             "bodyText": "- Pak Afghan Portal is used to help the Government of Pakistan in which they offer scholarships to Afghan youth for their capacity building through imparting quality education to 3,000 scholars in various fields like Medicine, Engineering, Agriculture, Management, Computer science, etc. ",
             "links": [
                 {

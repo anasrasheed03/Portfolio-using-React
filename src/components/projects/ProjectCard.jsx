@@ -1,10 +1,14 @@
-import React, { useContext } from 'react';
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+import React, { useContext, useState } from 'react';
 import {
-  Button, Card, Badge, Col,
+  Card, Col,
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
-import ReactMarkdown from 'react-markdown';
+import ModalWrapper from '../ModalWrapper/ModalWrapper';
+import ProjectDetail from '../projectsDetails/ProjectDetails';
+// import ReactMarkdown from 'react-markdown';
 
 const styles = {
   badgeStyle: {
@@ -18,7 +22,7 @@ const styles = {
     borderRadius: 10,
   },
   cardTitleStyle: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: 700,
   },
   cardTextStyle: {
@@ -35,9 +39,16 @@ const styles = {
 
 const ProjectCard = (props) => {
   const theme = useContext(ThemeContext);
-  const parseBodyText = (text) => <ReactMarkdown children={text} />;
-
+  const [selectedCard, setSelectedCard] = useState();
   const { project } = props;
+
+  const getSelectedCardDetail = (data) => {
+    setSelectedCard(data);
+  };
+
+  const onClose = () => {
+    setSelectedCard(false);
+  };
 
   return (
     <Col>
@@ -47,17 +58,22 @@ const ProjectCard = (props) => {
           backgroundColor: theme.cardBackground,
           borderColor: theme.cardBorderColor,
         }}
+        className="projectCards"
         text={theme.bsSecondaryVariant}
+        onClick={() => { getSelectedCardDetail(project); }}
       >
-        <Card.Img variant="top" src={project?.image} />
-        <Card.Body>
+        <Card.Img variant="top" src={project?.image} style={{ maxHeight: '12rem' }} />
+        <div className="overlay">
+          <img src="images/eye.png" className="view" alt="view" />
+        </div>
+        <Card.Body className="projectCard">
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
-          <Card.Text style={styles.cardTextStyle}>
-            {parseBodyText(project.bodyText)}
-          </Card.Text>
+          <Card.Title style={styles.cardTitleStyle}>
+            <img src="images/eye.png" className={theme.cardBackground === '#060606' ? 'viewBtnLight' : 'viewBtnDark'} alt="view" />
+          </Card.Title>
         </Card.Body>
 
-        <Card.Body>
+        {/* <Card.Body>
           {project?.links?.map((link) => (
             <Button
               key={link.href}
@@ -68,8 +84,8 @@ const ProjectCard = (props) => {
               {link.text}
             </Button>
           ))}
-        </Card.Body>
-        {project.tags && (
+        </Card.Body> */}
+        {/* {project.tags && (
           <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
             {project.tags.map((tag) => (
               <Badge
@@ -83,8 +99,20 @@ const ProjectCard = (props) => {
               </Badge>
             ))}
           </Card.Footer>
-        )}
+        )} */}
       </Card>
+      {selectedCard && (
+      <ModalWrapper>
+        <ProjectDetail
+          style={styles}
+          theme={theme}
+          project={selectedCard}
+          backgroundColor={theme.cardBackground}
+          borderColor={theme.cardBorderColor}
+          onClose={onClose}
+        />
+      </ModalWrapper>
+      )}
     </Col>
   );
 };

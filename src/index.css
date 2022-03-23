@@ -11,3 +11,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.modal .modalHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0;
+}
+.modal .modalHeader img {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+
+}
+
+
+
+.view{
+  /* filter: opacity(0.5) drop-shadow(0 0 0 white); */
+  width: 20%;
+  padding-top: 100px;
+}
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+  .viewBtnLight{
+    filter: opacity(0.5) drop-shadow(0 0 0 white);
+    width: 10%;
+  }
+  
+  .viewBtnDark{
+    width: 10%;
+  }
+  .projectCard{
+    height: 8rem !important
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) { 
+  .projectCards:hover .overlay {
+    opacity: 1;
+  }
+  .viewBtnLight{
+    display: none;
+  }
+  
+  .viewBtnDark{
+    display: none;
+  }
+  .projectCard{
+    height: 6rem !important
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+  .projectCards:hover .overlay {
+    opacity: 1;
+  }
+  .viewBtnLight{
+    display: none;
+  }
+  
+  .viewBtnDark{
+    display: none;
+  }
+  .projectCard{
+    height: 6rem !important
+  }
+}
+
+@media (min-width: 1200px) { 
+  .projectCards:hover .overlay {
+    opacity: 1;
+  }
+  .viewBtnLight{
+    display: none;
+  }
+  
+  .viewBtnDark{
+    display: none;
+  }
+
+  .projectCard{
+    height: 6rem !important
+  }
+}
+
+.overlay {  
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(119 135 141 / 50%); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
