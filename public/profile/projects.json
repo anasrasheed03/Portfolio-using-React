@@ -140,6 +140,17 @@
                     "href": "https://ehsaas.hec.gov.pk/"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/Ehsaas/signup.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/form.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/signup1.png"
+                }
+            ],
             "tags" : [
                 "Angular",
                 "SCSS",
@@ -157,6 +168,17 @@
                     "href": "https://pakafghan.hec.gov.pk/"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/Ehsaas/signup.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/form.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/signup1.png"
+                }
+            ],
             "tags" : [
                 "Angular",
                 "SCSS",
@@ -172,6 +194,23 @@
                 {
                     "text": "Live",
                     "href": "https://play.google.com/store/apps/details?id=com.system.dasapp"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/App/dashboard.PNG"
+                },
+                {
+                    "image" : "images/projects/App/add.PNG"
+                },
+                {
+                    "image" : "images/projects/App/Detail.PNG"
+                },
+                {
+                    "image" : "images/projects/App/profile.PNG"
+                },
+                {
+                    "image" : "images/projects/App/scheduling.PNG"
                 }
             ],
             "tags" : [
@@ -192,6 +231,17 @@
                     "href": "https://live.ke.com.pk/Pages/LoginPage.aspx"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/KE/Billing.png"
+                },
+                {
+                    "image" : "images/projects/KE/Powersupply.png"
+                },
+                {
+                    "image" : "images/projects/KE/Tracking.png"
+                }
+            ],
             "tags" : [
                 "Angular",
                 "SCSS",
@@ -207,6 +257,20 @@
                 {
                     "text": "Live",
                     "href": "https://research.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Research/admin.png"
+                },
+                {
+                    "image" : "images/projects/Research/Dashboard-applicant.png"
+                },
+                {
+                    "image" : "images/projects/Research/admin-1.png"
+                },
+                {
+                    "image" : "images/projects/Research/list.png"
                 }
             ],
             "tags" : [
@@ -226,6 +290,17 @@
                     "href": "https://onlinehelp.hec.gov.pk/"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/Online-Help/addTicket.PNG"
+                },
+                {
+                    "image" : "images/projects/Online-Help/List.PNG"
+                },
+                {
+                    "image" : "images/projects/Online-Help/Remarks.PNG"
+                }
+            ],
             "tags" : [
                 "Angular",
                 "SCSS",
@@ -239,6 +314,23 @@
             "bodyText": "- Paymax Merchant Portal helps merchant users to see and handle their daily basis payment information, also the system allows them to add view different kind of reports against their product in the system.",
             "links": [
             ],
+            "images":[
+                {
+                    "image" : "images/projects/Paymax-Merchant/Login.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/History.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/List.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/Capture.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/singup.PNG"
+                }
+            ],
             "tags" : [
                 "Angular",
                 "SCSS",
@@ -251,6 +343,17 @@
             "title": "Paymax Payment CheckOut",
             "bodyText": "- Payment Gateway Checkout was developed using React.JS\n -  Payment system for public users which provided 4 different payment processing ways such as using the mobile account, Over the Counter, Credit Card, Bank Debit, etc. \n - The developed system used two different ways of data encryption to process each and every API request(RSA and AES Encryption)",
             "links": [
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Paymax-Checkout/shop.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Checkout/Error.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Checkout/Success.PNG"
+                }
             ],
             "tags" : [
                 "React",
@@ -268,6 +371,20 @@
                     "href": "https://trustmarq.com/"
                 }
             ],
+            "images":[
+                {
+                    "image" : "images/projects/Trustmarq/aboutus.PNG"
+                },
+                {
+                    "image" : "images/projects/Trustmarq/Our-Focus.PNG"
+                },
+                {
+                    "image" : "images/projects/Trustmarq/about-us1.PNG"
+                },
+                {
+                    "image" : "images/projects/Trustmarq/Sub.PNG"
+                }
+            ],
             "tags" : [
                 "WordPress"
             ]
@@ -280,6 +397,26 @@
                 {
                     "text": "Live",
                     "href": "https://web.dev.pledgegarden.com/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/PledgeGarden/Event.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/ContributionLsit.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/EventList.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/OrgDetail.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/Payment.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/Search.PNG"
                 }
             ],
             "tags" : [
@@ -296,11 +433,50 @@
             "links": [
                 
             ],
+            "images":[
+                {
+                    "image" : "images/projects/ICV-Admin/banners.png"
+                },
+                {
+                    "image" : "images/projects/ICV-Admin/dashboard.png"
+                },
+                {
+                    "image" : "images/projects/ICV-Admin/site-settings.png"
+                }
+            ],
             "tags" : [
                 "React",
                 "JavaScript",
                 "MongoDB",
                 "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/scholarship-poster.Png",
+            "title": "Scholarship Higher Education Commission Portal",
+            "bodyText": "- Scholarship HEC Portal is for all Pakistani and International Students for different Educational Scholarship provided by HEC\n -  Fully dynamic and responsive with admin panel\n - Scholarship portal contains different kind of scholarship for all local and international students such as Learning Opportunities Abroad, Pak Srilank Scholarship, Pak US Knowledge Cooridoor, US Admin Scholarsip, etc",
+            "links": [
+                
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Scholarship/dashboard.png"
+                },
+                {
+                    "image" : "images/projects/Scholarship/Form.png"
+                },
+                {
+                    "image" : "images/projects/Scholarship/Result.png"
+                },
+                {
+                    "image" : "images/projects/Scholarship/Signup.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "JavaScript",
+                "Material UI",
+                "Rest API"
             ]
         }
         

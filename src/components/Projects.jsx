@@ -4,6 +4,7 @@ import { Container, Row, Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
+import { shuffle } from 'lodash';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
@@ -29,7 +30,7 @@ const Projects = (props) => {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
+      .then((res) => setData(shuffle(res.projects)))
       .catch((err) => err);
   }, []);
   const numberOfItems = showMore && data ? data.length : 6;
@@ -41,7 +42,7 @@ const Projects = (props) => {
           <div className="section-content-container">
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
-                {data.projects?.slice(0, numberOfItems).map((project) => (
+                {data?.slice(0, numberOfItems).map((project) => (
                   <Fade key={project.title}>
                     <ProjectCard project={project} />
                   </Fade>
