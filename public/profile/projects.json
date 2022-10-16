@@ -1,0 +1,484 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "Dev Portfolio",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/anasrasheed03/portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://portfolio-anasrasheed03.vercel.app/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/DevPortfolio/experience.PNG"
+                },
+                {
+                    "image" : "images/projects/DevPortfolio/projects.PNG"
+                },
+                {
+                    "image" : "images/projects/DevPortfolio/skills.PNG"
+                },
+                {
+                    "image" : "images/projects/DevPortfolio/skills-light-mode.PNG"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/eservices-poster.PNG",
+            "title": "Eservices - Higher Education Commission",
+            "bodyText": "- Eservices Portal is focused on improving user experience including mobile responsive, improved design, change in processes and provide better options and easy to adopted feature to the application/students.\n -  Eservices contains degree application form which contains all kind of cases such as new degree, duplicate, verify NADRA details, also have option for applicants to schedule a visit to HEC, Submit application via Courier",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://eservices.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Eservices/App-Form.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/Dashboard.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/profile-edit.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/profile-unedit.png"
+                },
+                {
+                    "image" : "images/projects/Eservices/Tracking.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/icv-poster.png",
+            "title": "ICV Global",
+            "bodyText": "- ICV Global Website made in React\n -  Fully dynamic and responsive with admin panel, easily change data and images.\n - Admin Panel which can be used to update website.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "http://www.icvglobal.com/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/ICVGlobal/Insights.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Careers.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Footfer.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Discover.PNG"
+                },
+                {
+                    "image" : "images/projects/ICVGlobal/Contact-us.PNG"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "MongoDB",
+                "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/etc-poster.PNG",
+            "title": "Education Test Council - HEC",
+            "bodyText": "- The ETC Portal Revamp from JSX to Angular is focused on improving user experiences of students who use the HEC Education Testing Council (ETC) Portal for applying for Law Graduate and Undergraduate Tests. \n -  The objective is to make the portal, self-explanatory, easy to understand, and easy to navigate.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://etc.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/ETC/dashboard.png"
+                },
+                {
+                    "image" : "images/projects/ETC/job.png"
+                },
+                {
+                    "image" : "images/projects/ETC/Tabs.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/ehsaas-poster.PNG",
+            "title": "Ehsaas PM Scholarship Pakistan",
+            "bodyText": "- Scholarship Grant Management system that includes applicant and admin sides and applicant side include information related to their education history, family history, income system, assets, vehicle, personal background, while Admin side includes stats, reports, and details view for application monitoring.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://ehsaas.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Ehsaas/signup.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/form.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/signup1.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/pak-afghan-poster.PNG",
+            "title": "Allama Muhammad Iqbal Scholarships for Afghan Nationals",
+            "bodyText": "- Pak Afghan Portal is used to help the Government of Pakistan in which they offer scholarships to Afghan youth for their capacity building through imparting quality education to 3,000 scholars in various fields like Medicine, Engineering, Agriculture, Management, Computer science, etc. ",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://pakafghan.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Ehsaas/signup.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/form.png"
+                },
+                {
+                    "image" : "images/projects/Ehsaas/signup1.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/eservices-app-poster.jpg",
+            "title": "Eservices HEC Mobile App",
+            "bodyText": "- HEC eServices Mobile app developed using Ionic 4 \n -  EServices app is developed to provide the option to students to get their degree attested through mobile application instead of Web App, it contains the application form for degree attestation, application appointment scheduling, courier upload, Online-help, and other functionalities",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.system.dasapp"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/App/dashboard.PNG"
+                },
+                {
+                    "image" : "images/projects/App/add.PNG"
+                },
+                {
+                    "image" : "images/projects/App/Detail.PNG"
+                },
+                {
+                    "image" : "images/projects/App/profile.PNG"
+                },
+                {
+                    "image" : "images/projects/App/scheduling.PNG"
+                }
+            ],
+            "tags" : [
+                "Ionic",
+                "SCSS",
+                "JavaScript",
+                "HTML",
+                "Cordova"
+            ]
+        },
+        {
+            "image" : "images/projects/ke-poster.png",
+            "title": "K-Electric Consumer Application",
+            "bodyText": "- Karachi-Electric (K-Electric) application made on angular 6,   primarily provides customer services like billing information, meter request, new connection, and lodge complaint facility through the application.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://live.ke.com.pk/Pages/LoginPage.aspx"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/KE/Billing.png"
+                },
+                {
+                    "image" : "images/projects/KE/Powersupply.png"
+                },
+                {
+                    "image" : "images/projects/KE/Tracking.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/research-poster.PNG",
+            "title": "Research Grants Management System",
+            "bodyText": "- HEC Research Grants Management System (RGMS) Review process is designed to facilitate HEC personnel with the process of review and scrutiny of Research Grant Applicants to ensure timely completion of application scrutiny and ultimately, the disbursement of research grants to hopeful applicants.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://research.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Research/admin.png"
+                },
+                {
+                    "image" : "images/projects/Research/Dashboard-applicant.png"
+                },
+                {
+                    "image" : "images/projects/Research/admin-1.png"
+                },
+                {
+                    "image" : "images/projects/Research/list.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/online-help-poster.PNG",
+            "title": "Complaint Management System - HEC",
+            "bodyText": "- The Complaint Management System Portal was developed using Angular 6. It is sort of complaint system, which provide options to add a complaint against an online service provided by HEC and get feedbacks accordingly.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://onlinehelp.hec.gov.pk/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Online-Help/addTicket.PNG"
+                },
+                {
+                    "image" : "images/projects/Online-Help/List.PNG"
+                },
+                {
+                    "image" : "images/projects/Online-Help/Remarks.PNG"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/paymax-merchant-poster.PNG",
+            "title": "Paymax Merchant Portal",
+            "bodyText": "- Paymax Merchant Portal helps merchant users to see and handle their daily basis payment information, also the system allows them to add view different kind of reports against their product in the system.",
+            "links": [
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Paymax-Merchant/Login.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/History.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/List.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/Capture.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Merchant/singup.PNG"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "SCSS",
+                "JavaScript",
+                "HTML"
+            ]
+        },
+        {
+            "image" : "images/projects/paymax-checkout-poster.png",
+            "title": "Paymax Payment CheckOut",
+            "bodyText": "- Payment Gateway Checkout was developed using React.JS\n -  Payment system for public users which provided 4 different payment processing ways such as using the mobile account, Over the Counter, Credit Card, Bank Debit, etc. \n - The developed system used two different ways of data encryption to process each and every API request(RSA and AES Encryption)",
+            "links": [
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Paymax-Checkout/shop.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Checkout/Error.PNG"
+                },
+                {
+                    "image" : "images/projects/Paymax-Checkout/Success.PNG"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "Material UI"
+            ]
+        },        
+        {
+            "image" : "images/projects/trustmarq-poster.PNG",
+            "title": "Trustmarq Global Services",
+            "bodyText": "- Trustmarq Global Services was made using WordPress\n -  Fully dynamic and responsive\n - Custom plugins developed to show Insights of the company on the side menu. \n - Integration with third-party apps like Zoho, Chat System, and Recruitment Management System",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://trustmarq.com/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Trustmarq/aboutus.PNG"
+                },
+                {
+                    "image" : "images/projects/Trustmarq/Our-Focus.PNG"
+                },
+                {
+                    "image" : "images/projects/Trustmarq/about-us1.PNG"
+                },
+                {
+                    "image" : "images/projects/Trustmarq/Sub.PNG"
+                }
+            ],
+            "tags" : [
+                "WordPress"
+            ]
+        },
+        {
+            "image" : "images/projects/pledge-garden-poster.PNG",
+            "title": "Pledge Card",
+            "bodyText": "- Pledge Garden was developed using React with Node.js and DynamoDB as backend.\n -  Pledge Garden is a completely responsive mobile view application design in a way to run only on a mobile.\n - Pledge Garden is a fundraiser event orchestration platform.  \n - Pledge Garden allows event organizers to focus on the inspirational act of fundraising, getting people engaged and inspired, and ultimately win their support.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://web.dev.pledgegarden.com/"
+                }
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/PledgeGarden/Event.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/ContributionLsit.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/EventList.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/OrgDetail.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/Payment.PNG"
+                },
+                {
+                    "image" : "images/projects/PledgeGarden/Search.PNG"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "DynamoDB",
+                "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/icv-admin-poster.png",
+            "title": "ICV Global Admin Portal",
+            "bodyText": "- ICV Global Website made in React\n -  Fully dynamic and responsive with admin panel, easily change data and images.\n - Admin Panel which can be used to update website.",
+            "links": [
+                
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/ICV-Admin/banners.png"
+                },
+                {
+                    "image" : "images/projects/ICV-Admin/dashboard.png"
+                },
+                {
+                    "image" : "images/projects/ICV-Admin/site-settings.png"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "MongoDB",
+                "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/scholarship-poster.PNG",
+            "title": "Scholarship Higher Education Commission Portal",
+            "bodyText": "- Scholarship HEC Portal is for all Pakistani and International Students for different Educational Scholarship provided by HEC\n -  Fully dynamic and responsive with admin panel\n - Scholarship portal contains different kind of scholarship for all local and international students such as Learning Opportunities Abroad, Pak Srilank Scholarship, Pak US Knowledge Cooridoor, US Admin Scholarsip, etc",
+            "links": [
+                
+            ],
+            "images":[
+                {
+                    "image" : "images/projects/Scholarship/dashboard.png"
+                },
+                {
+                    "image" : "images/projects/Scholarship/Form.png"
+                },
+                {
+                    "image" : "images/projects/Scholarship/Result.png"
+                },
+                {
+                    "image" : "images/projects/Scholarship/Signup.png"
+                }
+            ],
+            "tags" : [
+                "Angular",
+                "JavaScript",
+                "Material UI",
+                "Rest API"
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/anasurrasheed/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/anasrasheed03"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:anasurrasheed.abid@gmail.com"
+        }
+    ]
+}
