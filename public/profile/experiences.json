@@ -5,40 +5,27 @@
             "subtitle": "Systems Limited",
             "workType": "Full-time",
             "workDescription": [
+                "To develop website features that can enhance the user experience.",
+                "To test web applications during the development process for usability and fixing bugs.",
                 "Meet with clients to discuss their website design and requirements",
                 "Work with designers, such as graphic designers, to determine the site’s layout",
                 "Assisting and Supporting in collection and documentation of user requirements, manuals, reports",
                 "Analyzing technical problems, processes along with solutions and resolving them",
-                "Collaborating with back-end developers and designers to other stakeholders to accomplish a task and improve the usability and performance of applications Reviewing API documentation for accuracy."
+                "Collaborating with back-end developers and designers to other stakeholders to accomplish a task and improve the usability and performance of applications Reviewing API documentation for accuracy.",
+                "Worked on diﬀerent JavaScript Frameworks (Angular, React.JS, Typescript, JavaScript, Ionic, Node.JS)."
             ],
             "dateText": "06/2019 – 10/2022"
         },
         {
-            "title": "System Analyst",
-            "subtitle": "TrustMarq Global Services",
-            "workType": "Full-time(Remote)",
+            "title": "Internee",
+            "subtitle": "Systems Limited",
+            "workType": "Full-time",
             "workDescription": [
-                "Website development (PHP, WordPress, HTML, CSS, JS)",
+                "Website development (Angular, PHP, WordPress, HTML, CSS, JS)",
                 "Maintain, Troubleshoot and update websites",
-                "Gather and refine specifications and requirements based on technical needs",
-                "Client communications"
-
+                "Gather and refine specifications and requirements based on technical needs"
             ],
-            "dateText": "06/2017 – 10/2019"
-        },
-        {
-            "title": "Back Office Associate",
-            "subtitle": "Corpnet Consulting",
-            "workType": "Full-time(Remote)",
-            "workDescription": [
-                "Gathering and processing research data",
-                "Create website layout/user interface by using standard HTML/CSS",
-                "Assist front office in preparing, scheduling and organizing meetings, events and appointments.",
-                "Manage and upload website content",
-                "Handle Timesheet submission system.",
-                "Applying off-page SEO (search engine optimization)"
-            ],
-            "dateText": "01/2016 – 05/2017"
+            "dateText": "03/2017 – 06/2019"
         }
     ]
 }
