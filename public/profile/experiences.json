@@ -1,6 +1,22 @@
 {
     "experiences": [
         {
+            "title": "Experienced Software Engineer",
+            "subtitle": "Bauhaus AG",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed scalable web and mobile applications using TypeScript, JavaScript, Angular, Tailwind CSS, SCSS, ensuring high performance.",
+                "Implemented end-to-end testing with Jasmine, Karma, and Cypress to enhance application reliability.",
+                "Built fullstack applications with NestJS, TypeORM, MySQL, and Java Spring Boot, ensuring seamless integration.",
+                "Work with designers, such as graphic designers, to determine the site’s layout",
+                "Utilized best practices like Single Responsibility Principle, TDD, SOLID principles, and DDD for maintainable code.",
+                "Conducted code reviews to ensure code quality and adherence to standards.",
+                "Deployed applications on GCP, using Apigee for API management and OpenAPI for API design and documentation.",
+                "Fixed bugs promptly to maintain application stability and user satisfaction."
+            ],
+            "dateText": "03/2023 – Present"
+        },
+        {
             "title": "Senior Software Engineer",
             "subtitle": "Systems Limited",
             "workType": "Full-time",
